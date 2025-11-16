@@ -8,7 +8,7 @@ import { Button } from "./ui/Button/Button";
 const Applications = () => {
   const [applications, setApplications] = useState<Application[]>([]);
   const lastApplicationsRef = useRef<Application[]>([]);
-  const [page, setPage] = useState(18);
+  const [page, setPage] = useState(1);
   const loadingRef = useRef(false);
   const endOfListRef = useRef(false);
 
